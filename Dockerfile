@@ -7,3 +7,4 @@ COPY package-lock.json ./
 RUN npm install
 
 COPY ./*.js ./
+COPY ./*.txt ./
