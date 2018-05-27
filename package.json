@@ -1,0 +1,16 @@
+{
+  "name": "egghead-04-vim-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "scripts": {
+    "docker:build": "docker build --pull . -t egghead04",
+    "docker:run": "docker run -h egghead -it --rm egghead04",
+    "docker": "npm run docker:build && npm run docker:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
